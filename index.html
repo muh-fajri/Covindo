@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Indonesia</title>
+</head>
+<body>
+    <div id="toTop" onclick="gotoTop()">Up</div>
+    <header>
+        <div>
+            <h1>Covindo</h1>
+            <button onclick="openMobMenu()">&#9776</button>
+            <nav>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/Reynadi531/api-covid19-indonesia-v2">Covid-19 API</a></li>
+                </ul>
+            </nav>
+            <nav id="mobMenu">
+                <span onclick="closeMobMenu()">&times;</span>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/Reynadi531/api-covid19-indonesia-v2">Covid-19 API</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <section class="heading">
+            <h2>AKUMULASI KASUS COVID-19 DI INDONESIA</h2>
+            <div id="date-time"><p><!-- Don't make change here --></p></div>
+        </section>
+        <section id="total-cases">
+            <!-- Don't modify here -->
+        </section>
+        <section class="heading">
+            <h2>AKUMULASI PER PROVINSI</h2>
+            <p><em><strong>*Note:</strong> Diurutkan berdasarkan jumlah kasus terbanyak.</em></p>
+        </section>
+        <section id="list-cases">
+            <!-- Don't modify here -->
+        </section>
+    </article>
+    <footer>
+        <p>Developed by Muhammad Fajri</p>
+    </footer>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
